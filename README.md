@@ -22,3 +22,15 @@ many words are in the feedback, another identifies the longest word to detect ke
 a third converts the feedback text to lowercase for normalization. By running these tasks
 simultaneously using threads, the program efficiently demonstrates how string processing and
 threading can work together for real-time text analysis in Java.
+
+------------------------------------------------------------------------------------
+
+Problem 4 :  
+In a smart city traffic control system, multiple intersections operate with automated signals
+that must coordinate to manage vehicle flow efficiently. Each intersection can be represented as a
+separate thread, where every signal cycles through red, green, and yellow lights with specific
+time durations. To simulate real-time control, Thread.sleep() can be used to create delays
+between light changes. Synchronization is necessary to ensure that no two nearby intersections
+show a green light simultaneously, preventing accidents and traffic jams. A central
+TrafficController class can be introduced to manage coordination among signals and assign
+thread priorities, giving more green time to signals on main roads compared to side roads.
