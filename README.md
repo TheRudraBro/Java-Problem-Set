@@ -1,0 +1,4 @@
+## JAVA Problem Set 
+------------------------------------------------------------------------------------
+Problem 1 : 
+To clean and format inconsistent customer names into proper case in Java, you first trim the leading and trailing spaces, then convert the entire string to lowercase to remove mixed-case issues, and finally split the name into individual words. For each word, you capitalize the first letter and keep the remaining letters in lowercase, then join all the formatted words back together with a single space. This ensures that inputs like " rAhUL shArmA ", "NEHA singh", or " ajAY VERMA" are normalized by removing extra spaces, correcting letter casing, and producing a clean, properly formatted result such as Rahul Sharma or Ajay Verma.
