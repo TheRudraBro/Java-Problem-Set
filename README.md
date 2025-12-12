@@ -64,3 +64,9 @@ applicants’ data.
 ------------------------------------------------------------------------------------
 
 Problem 7 :  
+A voter registration system checks if an applicant is eligible to vote. To be eligible, the
+applicant must be 18 years or older. If someone enters an age below 18, the system must stop the
+registration for that person and notify the operator with a meaningful message that this applicant
+is not eligible.
+Create a custom exception that is thrown whenever an applicant’s age is less than 18, and write a
+program that uses it while processing voter registrations.
