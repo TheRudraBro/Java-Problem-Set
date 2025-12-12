@@ -38,7 +38,7 @@ thread priorities, giving more green time to signals on main roads compared to s
 ------------------------------------------------------------------------------------
 
 Problem 5 :  
-5.At a busy polling center during an election, people are standing in a long line to cast their
+At a busy polling center during an election, people are standing in a long line to cast their
 votes. However, the election authority has set special rules for managing the voting line. Senior
 citizens (age 60 or above), individuals with disabilities, and pregnant women must be allowed to
 vote earlier than regular voters. New voters continue to arrive one by one, and the staff must
