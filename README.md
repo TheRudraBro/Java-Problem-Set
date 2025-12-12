@@ -46,3 +46,17 @@ decide who should enter the booth next based on these rules. Sometimes multiple 
 voters arrive together, and the order must still follow the rules strictly. Write a program that
 manages the voting line according to these rules and prints the sequence in which voters will
 actually vote.
+
+------------------------------------------------------------------------------------
+
+Problem 6 :  
+6.In a busy election office, three staff members work together to prepare voter ID cards. One
+staff member collects the voter details from applicants, another verifies the information, and the
+last person prints the final ID card. All three tasks must happen in correct order for each
+
+applicant: collect → verify → print. Multiple applicants are arriving continuously, and each staff
+member works in their own separate unit at the same time. However, the process must ensure
+that no applicant’s ID is printed before their information is properly collected and verified.
+Create a program that uses multiple threads to represent the three staff members and ensures that
+for every applicant, the tasks are completed in the correct order without mixing up different
+applicants’ data.
