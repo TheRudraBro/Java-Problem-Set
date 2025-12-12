@@ -50,7 +50,7 @@ actually vote.
 ------------------------------------------------------------------------------------
 
 Problem 6 :  
-6.In a busy election office, three staff members work together to prepare voter ID cards. One
+In a busy election office, three staff members work together to prepare voter ID cards. One
 staff member collects the voter details from applicants, another verifies the information, and the
 last person prints the final ID card. All three tasks must happen in correct order for each
 
@@ -60,3 +60,7 @@ that no applicant’s ID is printed before their information is properly collect
 Create a program that uses multiple threads to represent the three staff members and ensures that
 for every applicant, the tasks are completed in the correct order without mixing up different
 applicants’ data.
+
+------------------------------------------------------------------------------------
+
+Problem 7 :  
