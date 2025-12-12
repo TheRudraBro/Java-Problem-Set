@@ -34,3 +34,15 @@ between light changes. Synchronization is necessary to ensure that no two nearby
 show a green light simultaneously, preventing accidents and traffic jams. A central
 TrafficController class can be introduced to manage coordination among signals and assign
 thread priorities, giving more green time to signals on main roads compared to side roads.
+
+------------------------------------------------------------------------------------
+
+Problem 5 :  
+5.At a busy polling center during an election, people are standing in a long line to cast their
+votes. However, the election authority has set special rules for managing the voting line. Senior
+citizens (age 60 or above), individuals with disabilities, and pregnant women must be allowed to
+vote earlier than regular voters. New voters continue to arrive one by one, and the staff must
+decide who should enter the booth next based on these rules. Sometimes multiple high-priority
+voters arrive together, and the order must still follow the rules strictly. Write a program that
+manages the voting line according to these rules and prints the sequence in which voters will
+actually vote.
